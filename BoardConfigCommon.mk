@@ -69,6 +69,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 
 # SELinux
+BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Treble
