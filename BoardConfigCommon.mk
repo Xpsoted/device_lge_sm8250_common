@@ -91,7 +91,14 @@ BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 # Treble
+# Treble
+BUILD_WITHOUT_VENDOR := true
+TARGET_COPY_OUT_PRODUCT := product
+TARGET_COPY_OUT_SYSTEM := system
+TARGET_COPY_OUT_SYSTEM_EXT := system/system_ext
+TARGET_COPY_OUT_VENDOR := vendor
 BOARD_VNDK_VERSION := current
+PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
