@@ -59,3 +59,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=395 \
+
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img
+
+
