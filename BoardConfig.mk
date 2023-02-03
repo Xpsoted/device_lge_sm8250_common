@@ -91,7 +91,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BUILD_WITHOUT_VENDOR := true
