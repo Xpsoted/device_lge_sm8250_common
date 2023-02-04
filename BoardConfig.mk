@@ -89,10 +89,6 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.3-service.lge
-
 # Treble
 BUILD_WITHOUT_VENDOR := true
 TARGET_COPY_OUT_PRODUCT := system/product
