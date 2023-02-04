@@ -1,4 +1,0 @@
-# Vibrator
-ro.vibrator.hal.click.duration              u:object_r:vibrator_prop:s0
-ro.vibrator.hal.tick.duration               u:object_r:vibrator_prop:s0
-ro.vibrator.hal.heavyclick.duration         u:object_r:vibrator_prop:s0
