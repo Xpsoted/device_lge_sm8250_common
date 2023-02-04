@@ -9,6 +9,13 @@ DEVICE_PATH := device/lge/timelm
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    system 
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := timelm
 
